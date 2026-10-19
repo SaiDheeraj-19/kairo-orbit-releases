@@ -2,12 +2,22 @@
 
 Installers for [Kairo Orbit](https://orbit.thekairo.dev): use your Mac from your phone, from anywhere.
 
-| Device | Download |
-|---|---|
-| Mac (macOS 14+) | [KairoOrbit.dmg](https://github.com/SaiDheeraj-19/kairo-orbit-releases/releases/latest/download/KairoOrbit.dmg) |
-| Android | [KairoOrbit.apk](https://github.com/SaiDheeraj-19/kairo-orbit-releases/releases/latest/download/KairoOrbit.apk) |
-| iPhone | Web app: https://kairo-orbit-app.kairo-orbit-relay.workers.dev (Safari → Share → Add to Home Screen) |
+## Mac (macOS 14+, Apple Silicon and Intel)
 
-Install steps are on each release page and on [orbit.thekairo.dev](https://orbit.thekairo.dev/#download).
+Fastest, no security warning — paste in Terminal:
+
+```bash
+curl -fsSL https://orbit.thekairo.dev/install.sh | bash
+```
+
+Or download [KairoOrbit.dmg](https://github.com/SaiDheeraj-19/kairo-orbit-releases/releases/latest/download/KairoOrbit.dmg), drag it into Applications, and the first time you open it go to **System Settings → Privacy & Security → Open Anyway**.
+
+## Android
+
+[KairoOrbit.apk](https://github.com/SaiDheeraj-19/kairo-orbit-releases/releases/latest/download/KairoOrbit.apk) — open it on the phone and allow installing unknown apps if asked.
+
+## iPhone
+
+Web app, no App Store: open https://kairo-orbit-app.kairo-orbit-relay.workers.dev in Safari → Share → **Add to Home Screen**.
 
 © Kairo Technologies Private Limited.
